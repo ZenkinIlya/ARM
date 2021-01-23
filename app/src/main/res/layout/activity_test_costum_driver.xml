@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qs5501.demo.settings.test.TestCustomDriverActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_test_custom"
+        style="@style/Toolbar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Тест costum driver"
+            android:textColor="@color/White"
+            android:textSize="30sp"
+            android:gravity="start"
+            android:layout_marginEnd="20dp">
+        </TextView>
+
+    </android.support.v7.widget.Toolbar>
+
+    <Button
+        android:id="@+id/btn_custom_test_status_request"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Запрос состояния"
+        android:textSize="25sp"
+        style="@style/Buttons"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_view_custom_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </ScrollView>
+
+
+</LinearLayout>

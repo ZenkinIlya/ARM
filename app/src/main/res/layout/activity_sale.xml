@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_sale"
+            style="@style/Toolbar">
+
+            <TextView
+                android:id="@+id/sale_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Продажа"
+                android:textColor="@color/White"
+                android:textSize="30sp"
+                android:gravity="start"
+                android:layout_marginEnd="20dp">
+            </TextView>
+
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorControlNormal"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/sale_switch_sign_calculation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textOff="Приход"
+                android:textOn="Расход"
+                android:layout_gravity="center"
+                android:thumb="@drawable/sw_thumb"
+                app:track="@drawable/sw_track"
+                app:showText="true"/>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/productListCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0"
+            android:background="@color/colorControlNormal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="К оплате"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/sale_pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="0.00"
+                    android:gravity="end"
+                    android:textSize="35sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_discount_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="Скидка"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/sale_discount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="0.00"
+                    android:gravity="end"
+                    android:textSize="35sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_pay"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Оплата"
+                android:textSize="25sp"
+                style="@style/Buttons">
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/gap"
+        android:layout_width="50dp"
+        android:layout_height="90dp"
+        app:layout_anchor="@id/productListCheck"
+        app:layout_anchorGravity="end|bottom"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_sale"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:layout_anchor="@id/gap"
+        app:layout_anchorGravity="top|left"
+        app:srcCompat="@drawable/ic_add"
+        fab:elevation="6dp"
+        style="@style/Buttons"/>
+
+</android.support.design.widget.CoordinatorLayout>

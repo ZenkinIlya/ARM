@@ -1,0 +1,193 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+E:\android code\QS5501L_5501HDEMO1
+          -                       
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* QS5501L_5501HDEMO (1)\
+* QS5501L_5501HDEMO (1)\.classpath
+* QS5501L_5501HDEMO (1)\.project
+* QS5501L_5501HDEMO (1)\.settings\
+* QS5501L_5501HDEMO (1)\.settings\org.eclipse.core.resources.prefs
+* QS5501L_5501HDEMO (1)\.settings\org.eclipse.jdt.core.prefs
+* QS5501L_5501HDEMO (1)\AndroidManifest.xml
+* QS5501L_5501HDEMO (1)\assets\
+* QS5501L_5501HDEMO (1)\assets\qsprint.html
+* QS5501L_5501HDEMO (1)\bin\
+* QS5501L_5501HDEMO (1)\bin\AndroidManifest.xml
+* QS5501L_5501HDEMO (1)\bin\QS5501L_5501HDEMO.apk
+* QS5501L_5501HDEMO (1)\bin\aidl\
+* QS5501L_5501HDEMO (1)\bin\aidl\com\
+* QS5501L_5501HDEMO (1)\bin\aidl\com\qs5501\
+* QS5501L_5501HDEMO (1)\bin\aidl\com\qs5501\aidl\
+* QS5501L_5501HDEMO (1)\bin\aidl\com\qs5501\aidl\IQSService.aidl
+* QS5501L_5501HDEMO (1)\bin\classes.dex
+* QS5501L_5501HDEMO (1)\bin\classes\
+* QS5501L_5501HDEMO (1)\bin\classes\android\
+* QS5501L_5501HDEMO (1)\bin\classes\android\zyapi\
+* QS5501L_5501HDEMO (1)\bin\classes\android\zyapi\CommonApi.class
+* QS5501L_5501HDEMO (1)\bin\classes\android\zyapi\Conversion.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs5501\
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs5501\demo\
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs5501\demo\MainPrinterActivity$1.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs5501\demo\MainPrinterActivity$2.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs5501\demo\MainPrinterActivity$3.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs5501\demo\MainPrinterActivity$4.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs5501\demo\MainPrinterActivity$5.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs5501\demo\MainPrinterActivity$6.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs5501\demo\MainPrinterActivity$7.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs5501\demo\MainPrinterActivity$ScanBroadcastReceiver.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs5501\demo\MainPrinterActivity.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs5501demo\
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs5501demo\aidl\
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs5501demo\aidl\BuildConfig.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs5501demo\aidl\R$attr.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs5501demo\aidl\R$drawable.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs5501demo\aidl\R$id.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs5501demo\aidl\R$layout.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs5501demo\aidl\R$raw.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs5501demo\aidl\R$string.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs5501demo\aidl\R$style.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs5501demo\aidl\R.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs\
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs\wiget\
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs\wiget\App$1.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs\wiget\App$2.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs\wiget\App$3.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs\wiget\App$4.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs\wiget\App$5.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs\wiget\App$6.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs\wiget\App$7.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs\wiget\App$8.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs\wiget\App$9.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs\wiget\App$ScanBroadcastReceiver.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs\wiget\App.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs\wiget\BarcodeCreater.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs\wiget\BitmapDeleteNoUseSpaceUtil.class
+* QS5501L_5501HDEMO (1)\bin\classes\com\qs\wiget\PrintUtils.class
+* QS5501L_5501HDEMO (1)\bin\dexedLibs\
+* QS5501L_5501HDEMO (1)\bin\dexedLibs\android-support-v4-02e0ca0426d1a87b8d12e067722900d7.jar
+* QS5501L_5501HDEMO (1)\bin\dexedLibs\core-78d8d136bea96dd5b348b46b2ff7f994.jar
+* QS5501L_5501HDEMO (1)\bin\jarlist.cache
+* QS5501L_5501HDEMO (1)\bin\res\
+* QS5501L_5501HDEMO (1)\bin\res\drawable-hdpi\
+* QS5501L_5501HDEMO (1)\bin\res\drawable-hdpi\ic_launcher.png
+* QS5501L_5501HDEMO (1)\bin\res\drawable-hdpi\logo1.png
+* QS5501L_5501HDEMO (1)\bin\res\drawable-mdpi\
+* QS5501L_5501HDEMO (1)\bin\res\drawable-mdpi\ic_launcher.png
+* QS5501L_5501HDEMO (1)\bin\res\drawable-xhdpi\
+* QS5501L_5501HDEMO (1)\bin\res\drawable-xhdpi\ic_launcher.png
+* QS5501L_5501HDEMO (1)\bin\res\drawable-xxhdpi\
+* QS5501L_5501HDEMO (1)\bin\res\drawable-xxhdpi\ic_launcher.png
+* QS5501L_5501HDEMO (1)\gen\
+* QS5501L_5501HDEMO (1)\gen\com\
+* QS5501L_5501HDEMO (1)\gen\com\qs5501demo\
+* QS5501L_5501HDEMO (1)\gen\com\qs5501demo\aidl\
+* QS5501L_5501HDEMO (1)\gen\com\qs5501demo\aidl\BuildConfig.java
+* QS5501L_5501HDEMO (1)\gen\com\qs5501demo\aidl\R.java
+* QS5501L_5501HDEMO (1)\ic_launcher-web.png
+* QS5501L_5501HDEMO (1)\libs\
+* QS5501L_5501HDEMO (1)\libs\android-support-v4.jar
+* QS5501L_5501HDEMO (1)\libs\armeabi\
+* QS5501L_5501HDEMO (1)\libs\armeabi\libzyapi_common.so
+* QS5501L_5501HDEMO (1)\libs\core.jar
+* QS5501L_5501HDEMO (1)\lint.xml
+* QS5501L_5501HDEMO (1)\proguard-project.txt
+* QS5501L_5501HDEMO (1)\project.properties
+* QS5501L_5501HDEMO (1)\res\
+* QS5501L_5501HDEMO (1)\res\drawable-hdpi\
+* QS5501L_5501HDEMO (1)\res\drawable-hdpi\demo.jpg
+* QS5501L_5501HDEMO (1)\res\drawable-hdpi\ic_launcher.png
+* QS5501L_5501HDEMO (1)\res\drawable-hdpi\logo1.png
+* QS5501L_5501HDEMO (1)\res\drawable-hdpi\write_1.jpg
+* QS5501L_5501HDEMO (1)\res\drawable-mdpi\
+* QS5501L_5501HDEMO (1)\res\drawable-mdpi\ic_launcher.png
+* QS5501L_5501HDEMO (1)\res\drawable-xhdpi\
+* QS5501L_5501HDEMO (1)\res\drawable-xhdpi\ic_launcher.png
+* QS5501L_5501HDEMO (1)\res\drawable-xxhdpi\
+* QS5501L_5501HDEMO (1)\res\drawable-xxhdpi\ic_launcher.png
+* QS5501L_5501HDEMO (1)\res\layout\
+* QS5501L_5501HDEMO (1)\res\layout\activity_psam.xml
+* QS5501L_5501HDEMO (1)\res\layout\main.xml
+* QS5501L_5501HDEMO (1)\res\layout\scan_layout1.xml
+* QS5501L_5501HDEMO (1)\res\layout\webview_layout.xml
+* QS5501L_5501HDEMO (1)\res\raw\
+* QS5501L_5501HDEMO (1)\res\raw\beep.ogg
+* QS5501L_5501HDEMO (1)\res\values-v11\
+* QS5501L_5501HDEMO (1)\res\values-v11\styles.xml
+* QS5501L_5501HDEMO (1)\res\values-v14\
+* QS5501L_5501HDEMO (1)\res\values-v14\styles.xml
+* QS5501L_5501HDEMO (1)\res\values\
+* QS5501L_5501HDEMO (1)\res\values\strings.xml
+* QS5501L_5501HDEMO (1)\res\values\styles.xml
+* QS5501L_5501HDEMO (1)\src\
+* QS5501L_5501HDEMO (1)\src\android\
+* QS5501L_5501HDEMO (1)\src\android\zyapi\
+* QS5501L_5501HDEMO (1)\src\android\zyapi\CommonApi.java
+* QS5501L_5501HDEMO (1)\src\android\zyapi\Conversion.java
+* QS5501L_5501HDEMO (1)\src\com\
+* QS5501L_5501HDEMO (1)\src\com\qs5501\
+* QS5501L_5501HDEMO (1)\src\com\qs5501\demo\
+* QS5501L_5501HDEMO (1)\src\com\qs5501\demo\MainPrinterActivity.java
+* QS5501L_5501HDEMO (1)\src\com\qs\
+* QS5501L_5501HDEMO (1)\src\com\qs\wiget\
+* QS5501L_5501HDEMO (1)\src\com\qs\wiget\App.java
+* QS5501L_5501HDEMO (1)\src\com\qs\wiget\BarcodeCreater.java
+* QS5501L_5501HDEMO (1)\src\com\qs\wiget\BitmapDeleteNoUseSpaceUtil.java
+* QS5501L_5501HDEMO (1)\src\com\qs\wiget\PrintUtils.java
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\armeabi\libzyapi_common.so => app\src\main\jniLibs\armeabi\libzyapi_common.so
+* libs\core.jar => app\libs\core.jar
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

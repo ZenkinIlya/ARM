@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Штрих-код"
+        android:icon="@drawable/ic_barcode_white"
+        android:id="@+id/sale_menu_barcode"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="Скидка на весь чек"
+        android:icon="@drawable/ic_discount"
+        android:id="@+id/sale_menu_discount_check"
+        app:showAsAction="never"/>
+    <item
+        android:title="Комментировать чек"
+        android:id="@+id/sale_menu_comment_check"
+        app:showAsAction="never"/>
+    <item
+        android:title="Отложить чек"
+        android:id="@+id/sale_menu_set_aside_check"
+        app:showAsAction="never"/>
+    <item
+        android:title="Свободная цена"
+        android:id="@+id/sale_menu_free_price"
+        app:showAsAction="never"/>
+    <item
+        android:title="Отложенные чеки"
+        android:id="@+id/sale_menu_asides_checks"
+        app:showAsAction="never"/>
+    <item
+        android:title="Удалить чек"
+        android:id="@+id/sale_menu_delete_check"
+        app:showAsAction="never"/>
+
+</menu>

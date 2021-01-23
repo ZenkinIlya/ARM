@@ -1,0 +1,182 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.qs5501demo.aidl"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="23" />
+9-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml
+10    <!-- 存储权限                    SD卡读写权限 -->
+11    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+11-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:7:5-84
+11-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:7:22-81
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:8:5-81
+12-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:8:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:9:5-67
+13-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:9:22-64
+14
+15    <uses-feature android:name="android.hardware.usb.host" />
+15-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:11:5-62
+15-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:11:19-59
+16
+17    <application
+17-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:13:5-90:19
+18        android:name="com.qs5501.demo.App"
+18-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:14:9-43
+19        android:allowBackup="true"
+19-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:15:9-35
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@mipmap/ic_launcher"
+22-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:16:9-43
+23        android:label="@string/app_name"
+23-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:17:9-41
+24        android:screenOrientation="portrait"
+24-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:18:9-45
+25        android:theme="@style/AppThemeNoActionBar" >
+25-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:19:9-51
+26        <activity
+26-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:20:9-22:57
+27            android:name="com.qs5501.demo.settings.test.TestCustomDriverActivity"
+27-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:21:13-82
+28            android:windowSoftInputMode="stateHidden" />
+28-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:22:13-54
+29        <activity
+29-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:23:9-25:57
+30            android:name="com.qs5501.demo.settings.test.TestActivity"
+30-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:24:13-70
+31            android:windowSoftInputMode="stateHidden" />
+31-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:25:13-54
+32        <activity
+32-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:26:9-28:57
+33            android:name="com.qs5501.demo.sale.payment.CreditPaymentActivity"
+33-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:27:13-78
+34            android:windowSoftInputMode="stateHidden" />
+34-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:28:13-54
+35        <activity
+35-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:29:9-31:57
+36            android:name="com.qs5501.demo.sale.payment.AdvancePaymentActivity"
+36-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:30:13-79
+37            android:windowSoftInputMode="stateHidden" />
+37-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:31:13-54
+38        <activity
+38-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:32:9-34:57
+39            android:name="com.qs5501.demo.checks.CheckViewActivity"
+39-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:33:13-68
+40            android:windowSoftInputMode="stateHidden" />
+40-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:34:13-54
+41        <activity
+41-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:35:9-37:57
+42            android:name="com.qs5501.demo.checks.ChecksActivity"
+42-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:36:13-65
+43            android:windowSoftInputMode="stateHidden" />
+43-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:37:13-54
+44        <activity
+44-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:38:9-40:57
+45            android:name="com.qs5501.demo.sale.payment.DifferentPaymentActivity"
+45-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:39:13-81
+46            android:windowSoftInputMode="stateHidden" />
+46-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:40:13-54
+47        <activity
+47-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:41:9-43:57
+48            android:name="com.qs5501.demo.settings.cliche.ClicheActivity"
+48-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:42:13-74
+49            android:windowSoftInputMode="stateHidden" />
+49-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:43:13-54
+50        <activity
+50-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:44:9-46:57
+51            android:name="com.qs5501.demo.settings.operators.OperatorsAdderActivity"
+51-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:45:13-85
+52            android:windowSoftInputMode="stateHidden" />
+52-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:46:13-54
+53        <activity
+53-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:47:9-49:57
+54            android:name="com.qs5501.demo.settings.operators.OperatorsActivity"
+54-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:48:13-80
+55            android:windowSoftInputMode="stateHidden" />
+55-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:49:13-54
+56        <activity
+56-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:50:9-52:57
+57            android:name="com.qs5501.demo.settings.SettingsActivity"
+57-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:51:13-69
+58            android:windowSoftInputMode="stateHidden" />
+58-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:52:13-54
+59        <activity
+59-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:53:9-55:57
+60            android:name="com.qs5501.demo.sale.payment.PaymentActivity"
+60-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:54:13-72
+61            android:windowSoftInputMode="stateHidden" />
+61-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:55:13-54
+62        <activity
+62-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:56:9-58:57
+63            android:name="com.qs5501.demo.sale.discountCheck.DiscountCheckActivity"
+63-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:57:13-84
+64            android:windowSoftInputMode="stateHidden" />
+64-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:58:13-54
+65        <activity
+65-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:59:9-61:57
+66            android:name="com.qs5501.demo.base.GoodAdderActivity"
+66-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:60:13-66
+67            android:windowSoftInputMode="stateHidden" />
+67-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:61:13-54
+68        <activity
+68-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:62:9-64:57
+69            android:name="com.qs5501.demo.base.BaseActivity"
+69-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:63:13-61
+70            android:windowSoftInputMode="stateHidden" />
+70-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:64:13-54
+71        <activity
+71-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:65:9-67:57
+72            android:name="com.qs5501.demo.introductionAndPay.IntroductionAndPayActivity"
+72-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:66:13-89
+73            android:windowSoftInputMode="stateHidden" />
+73-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:67:13-54
+74        <activity
+74-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:68:9-70:57
+75            android:name="com.qs5501.demo.sale.SaleActivity"
+75-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:69:13-61
+76            android:windowSoftInputMode="stateHidden" />
+76-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:70:13-54
+77        <activity android:name="com.qs5501.demo.MainMenuActivity" >
+77-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:71:9-83:20
+77-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:71:19-66
+78            <intent-filter>
+78-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:72:13-78:29
+79                <action android:name="android.intent.action.MAIN" />
+79-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:73:17-69
+79-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:73:25-66
+80
+81                <category android:name="android.intent.category.LAUNCHER" />
+81-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:75:17-77
+81-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:75:27-74
+82
+83                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+83-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:77:17-90
+83-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:77:25-87
+84            </intent-filter>
+85
+86            <meta-data
+86-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:80:13-82:57
+87                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+87-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:81:17-79
+88                android:resource="@xml/device_filter" />
+88-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:82:17-54
+89        </activity>
+90        <activity
+90-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:84:9-88:63
+91            android:name="com.qs5501.demo.MainPrinterActivity"
+91-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:85:13-63
+92            android:label="@string/app_name"
+92-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:86:13-45
+93            android:launchMode="singleTask"
+93-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:87:13-44
+94            android:windowSoftInputMode="stateAlwaysHidden" />
+94-->D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:88:13-60
+95    </application>
+96
+97</manifest>

@@ -1,0 +1,52 @@
+<resources>
+
+    <string name="app_name">АРМ кассира</string>
+
+    <string-array name="bool">
+        <item>Нет</item>
+        <item>Да</item>
+    </string-array>
+
+    <string-array name="method_calculation">
+        <item>предоплата 100%</item>
+        <item>предоплата</item>
+        <item>аванс</item>
+        <item>полный расчет</item>
+        <item>частичный кредит и расчет</item>
+        <item>передача в кредит</item>
+        <item>оплата кредита</item>
+    </string-array>
+
+    <string-array name="post">
+        <item>Администратор</item>
+        <item>Кассир</item>
+    </string-array>
+
+    <string-array name="tax_rate">
+        <item>Без НДС</item>
+        <item>10%</item>
+        <item>20%</item>
+    </string-array>
+
+    <string-array name="tax_system">
+        <item>Общая</item>
+        <item>Упрощенная доход</item>
+        <item>Упрощенная доход минус расход</item>
+        <item>Единый налог на вмененный доход</item>
+        <item>Единый сельскохозяйственный налог</item>
+        <item>Патентная система налогообложения</item>
+    </string-array>
+
+    <string-array name="units">
+        <item>шт</item>
+        <item>кг</item>
+        <item>метр</item>
+        <item>тара</item>
+        <item>упаковка</item>
+        <item>бутылка</item>
+        <item>литр</item>
+        <item>пачка</item>
+        <item>комплект</item>
+    </string-array>
+
+</resources>

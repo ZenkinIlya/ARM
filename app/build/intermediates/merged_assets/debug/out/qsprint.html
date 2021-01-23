@@ -1,0 +1,140 @@
+<html>
+<head>
+<meta charset="utf-8">
+<body>
+	<h3>打印测试网页</h3>
+	<br>
+	<br>
+	<label>请输入打印内容</label>
+	<br>
+	<input type="text" value="" id="textId">
+	<br>
+	<br>
+	<label>识别间隙</label>
+	<input type="checkbox" height="100px" width="100px" style="zoom: 200%;"
+		onclick="checkboxOnclick(this)" />
+	<br>
+	<br>
+	<button style='font-size: 20px' onclick="printText()">打印文本</button>
+	<br>
+	<br>
+	<button style='font-size: 20px' onclick="printBar()">打印一维码</button>
+	<br>
+	<br>
+	<button style='font-size: 20px' onclick="printQR()">打印二维码</button>
+	<br>
+	<br>
+	<button style='font-size: 20px' onclick="sendCMD1()">发送命令</button>
+	<br>
+	<br>
+	<button style='font-size: 20px' onclick="openScan()">打开扫描</button>
+
+	<script>
+		var laber = false;
+
+		function printText() {
+			
+			<!--
+		    /**
+		     * 打印文字，文字宽度满一行自动换行排版，不满一整行不打印除非强制换行
+		     * @param size: 打印字体大小，size为1时候为正常字体，size为2时候为双倍字体
+		     * @param align:	文字对齐方式 0 左对齐 1居中 2右对齐
+		     * @param blackLabel:是否进行黑标检测
+		     * @param msg:	要打印的文字字符串
+		     */
+		     -->
+			
+			var size=0;
+			var align=0;
+			var msg = document.getElementById("textId").value;
+
+			window.qsprint.printText(size,align,laber,msg+"\n")
+			
+
+		}
+
+		function printBar() {
+			
+			<!-- 
+			   /**
+		     * 打印一维码 
+		     * @param align：对齐方式 0左对齐 1居中对齐 2右对齐 
+		     * @param width：一维码的宽度 58纸张最大宽度为58
+		     * @param height：一维码的高度
+		     * @param blackLabel:是否进行黑标检测
+		     * @param msg: 	一维码对象，不能是中文
+		     *
+		     */
+		     -->
+			
+		    var align=0;
+		    var width=300;
+		    var height=100;
+			var msg = document.getElementById("textId").value;
+			
+			var msg1=[0x0a,0x0a];
+				//打印2个空行，使一维码顶部不沾边 
+			window.qsprint.sendCMD(msg1);
+
+			window.qsprint.printBarCode(align,width,height,laber,msg)
+
+		}
+
+		function printQR() {
+			
+		    /**
+		     * 打印二维码
+		     * @param align：对齐方式 0左对齐 1居中对齐 2右对齐 
+		     * @param width：二维码的宽度 58纸张最大宽度为380
+		     * @param height：二维码的高度
+		     * @param blackLabel:是否进行黑标检测
+		     * @param msg: 	二维码对象
+		     *
+		     */
+		     
+		    var align=0;
+		    var width=200;
+		    var height=200;
+			var msg = document.getElementById("textId").value;
+
+			window.qsprint.printQrCode(align,width,height,laber,msg);
+
+		}
+
+		function checkboxOnclick(checkbox) {
+
+			if (checkbox.checked == true) {
+				laber = true;
+			} else {
+				laber = false;
+			}
+
+			window.qsprint.printLabel(laber);
+
+		}
+		
+		function sendCMD1() {
+
+			var msg=[0x1d,0x0c];
+			
+			window.qsprint.sendCMD(msg);
+
+		}
+		
+		function openScan() {
+		     
+			window.qsprint.openScan();
+			
+		}
+		
+
+		function returnResult(result){
+			
+		    alert("result is" + result);
+	
+		}
+		
+	</script>
+</body>
+</head>
+</html>

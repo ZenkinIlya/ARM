@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qs5501.demo.base.BaseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_base"
+            style="@style/Toolbar">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Товары"
+                android:textColor="@color/White"
+                android:textSize="30sp"
+                android:gravity="start"
+                android:layout_marginEnd="20dp">
+            </TextView>
+
+        </android.support.v7.widget.Toolbar>
+
+        <ListView
+            android:id="@+id/productListBase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="0"
+            android:background="#4FB1D9FF">
+
+            <EditText
+                android:id="@+id/edit_text_base_search"
+                android:drawableStart="@android:drawable/ic_search_category_default"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Поиск"
+                android:layout_weight="1"/>
+
+            <ImageButton
+                android:id="@+id/barcode_base_search"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_barcode_black"
+                android:contentDescription="Штрих-код"
+
+                style="@style/Buttons"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/gap"
+        android:layout_width="50dp"
+        android:layout_height="90dp"
+        app:layout_anchor="@id/productListBase"
+        app:layout_anchorGravity="end|bottom"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_base"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:layout_anchor="@id/gap"
+        app:layout_anchorGravity="top|left"
+        app:srcCompat="@drawable/ic_add"
+        fab:elevation="6dp"
+        style="@style/Buttons"/>
+
+</android.support.design.widget.CoordinatorLayout>

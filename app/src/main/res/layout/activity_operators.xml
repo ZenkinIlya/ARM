@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qs5501.demo.settings.operators.OperatorsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_operators"
+            style="@style/Toolbar">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Операторы"
+                android:textColor="@color/White"
+                android:textSize="30sp"
+                android:gravity="start"
+                android:layout_marginEnd="20dp">
+            </TextView>
+
+        </android.support.v7.widget.Toolbar>
+
+        <ListView
+            android:id="@+id/operators_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/gap"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_anchor="@id/operators_list"
+        app:layout_anchorGravity="end|bottom"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_operators_add"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:layout_anchor="@id/gap"
+        app:layout_anchorGravity="top|left"
+        app:srcCompat="@drawable/ic_add"
+        fab:elevation="6dp"
+        style="@style/Buttons"/>
+
+</android.support.design.widget.CoordinatorLayout>

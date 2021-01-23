@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_introduction_pay"
+        style="@style/Toolbar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Внесение/Выплата"
+            android:textColor="@color/White"
+            android:textSize="30sp"
+            android:gravity="left"
+            android:layout_marginEnd="20dp">
+        </TextView>
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/edit_payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:digits="0123456789"
+            android:inputType="number">
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_making"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Внесение"
+            android:textSize="30sp"
+            style="@style/Buttons">
+        </Button>
+
+        <Button
+            android:id="@+id/btn_payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Выплата"
+            android:textSize="30sp"
+            style="@style/Buttons">
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,256 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:2:1-92:12
+INJECTED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:2:1-92:12
+INJECTED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:2:1-92:12
+INJECTED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:2:1-92:12
+MERGED from [com.android.support:design:23.4.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\1a1a308a35908dd4c28bc8bc5b777556\design-23.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\5d206cb55e489e7a56f28e01a9b42b4d\recyclerview-v7-23.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.satsuware.lib:usefulviews:2.3.6] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\07aa48593f9036e59162491e5fa56a3e\usefulviews-2.3.6\AndroidManifest.xml:17:1-29:12
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\b282d19a74ea607684d61367e898d96b\appcompat-v7-24.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\bf23bea8f8ba0d013f5b6046f58f90e7\animated-vector-drawable-24.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\01a67c5d4a085c999b3ca226856dad2f\support-vector-drawable-24.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\3aabfd5b4719d70290aedc07840dfa25\support-v4-24.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\15ec55f9505e5541a7c9072bc9c3f316\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\7b1c33c3eca1c6eb086c27a993119757\stetho-1.5.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.wdullaer:swipeactionadapter:2.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\e153f2fa017cd50584d5aa8e07cd4089\swipeactionadapter-2.0.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.mik3y:usb-serial-for-android:3.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\7555d1daf6c6cd4451489b5b514cbf6b\usb-serial-for-android-3.0.0\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:2:1-92:12
+INJECTED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:2:1-92:12
+INJECTED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:2:1-92:12
+	package
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:7:5-84
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:7:22-81
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.INTERNET
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:9:22-64
+uses-feature#android.hardware.usb.host
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:11:5-62
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:11:19-59
+application
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:13:5-90:19
+MERGED from [com.android.support:design:23.4.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\1a1a308a35908dd4c28bc8bc5b777556\design-23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.4.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\1a1a308a35908dd4c28bc8bc5b777556\design-23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.satsuware.lib:usefulviews:2.3.6] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\07aa48593f9036e59162491e5fa56a3e\usefulviews-2.3.6\AndroidManifest.xml:27:5-20
+MERGED from [com.satsuware.lib:usefulviews:2.3.6] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\07aa48593f9036e59162491e5fa56a3e\usefulviews-2.3.6\AndroidManifest.xml:27:5-20
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\b282d19a74ea607684d61367e898d96b\appcompat-v7-24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\b282d19a74ea607684d61367e898d96b\appcompat-v7-24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\bf23bea8f8ba0d013f5b6046f58f90e7\animated-vector-drawable-24.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\bf23bea8f8ba0d013f5b6046f58f90e7\animated-vector-drawable-24.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\01a67c5d4a085c999b3ca226856dad2f\support-vector-drawable-24.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\01a67c5d4a085c999b3ca226856dad2f\support-vector-drawable-24.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\3aabfd5b4719d70290aedc07840dfa25\support-v4-24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\3aabfd5b4719d70290aedc07840dfa25\support-v4-24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\15ec55f9505e5541a7c9072bc9c3f316\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\15ec55f9505e5541a7c9072bc9c3f316\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\7b1c33c3eca1c6eb086c27a993119757\stetho-1.5.0\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\7b1c33c3eca1c6eb086c27a993119757\stetho-1.5.0\AndroidManifest.xml:11:5-20
+MERGED from [com.wdullaer:swipeactionadapter:2.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\e153f2fa017cd50584d5aa8e07cd4089\swipeactionadapter-2.0.0\AndroidManifest.xml:11:5-20
+MERGED from [com.wdullaer:swipeactionadapter:2.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\e153f2fa017cd50584d5aa8e07cd4089\swipeactionadapter-2.0.0\AndroidManifest.xml:11:5-20
+	android:screenOrientation
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:18:9-45
+	android:label
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:17:9-41
+	android:icon
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:19:9-51
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:14:9-43
+activity#com.qs5501.demo.settings.test.TestCustomDriverActivity
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:20:9-22:57
+	android:windowSoftInputMode
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:22:13-54
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:21:13-82
+activity#com.qs5501.demo.settings.test.TestActivity
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:23:9-25:57
+	android:windowSoftInputMode
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:25:13-54
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:24:13-70
+activity#com.qs5501.demo.sale.payment.CreditPaymentActivity
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:26:9-28:57
+	android:windowSoftInputMode
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:28:13-54
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:27:13-78
+activity#com.qs5501.demo.sale.payment.AdvancePaymentActivity
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:29:9-31:57
+	android:windowSoftInputMode
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:31:13-54
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:30:13-79
+activity#com.qs5501.demo.checks.CheckViewActivity
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:32:9-34:57
+	android:windowSoftInputMode
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:34:13-54
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:33:13-68
+activity#com.qs5501.demo.checks.ChecksActivity
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:35:9-37:57
+	android:windowSoftInputMode
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:37:13-54
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:36:13-65
+activity#com.qs5501.demo.sale.payment.DifferentPaymentActivity
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:38:9-40:57
+	android:windowSoftInputMode
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:40:13-54
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:39:13-81
+activity#com.qs5501.demo.settings.cliche.ClicheActivity
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:41:9-43:57
+	android:windowSoftInputMode
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:43:13-54
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:42:13-74
+activity#com.qs5501.demo.settings.operators.OperatorsAdderActivity
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:44:9-46:57
+	android:windowSoftInputMode
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:46:13-54
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:45:13-85
+activity#com.qs5501.demo.settings.operators.OperatorsActivity
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:47:9-49:57
+	android:windowSoftInputMode
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:49:13-54
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:48:13-80
+activity#com.qs5501.demo.settings.SettingsActivity
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:50:9-52:57
+	android:windowSoftInputMode
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:52:13-54
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:51:13-69
+activity#com.qs5501.demo.sale.payment.PaymentActivity
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:53:9-55:57
+	android:windowSoftInputMode
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:55:13-54
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:54:13-72
+activity#com.qs5501.demo.sale.discountCheck.DiscountCheckActivity
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:56:9-58:57
+	android:windowSoftInputMode
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:58:13-54
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:57:13-84
+activity#com.qs5501.demo.base.GoodAdderActivity
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:59:9-61:57
+	android:windowSoftInputMode
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:61:13-54
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:60:13-66
+activity#com.qs5501.demo.base.BaseActivity
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:62:9-64:57
+	android:windowSoftInputMode
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:64:13-54
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:63:13-61
+activity#com.qs5501.demo.introductionAndPay.IntroductionAndPayActivity
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:65:9-67:57
+	android:windowSoftInputMode
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:67:13-54
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:66:13-89
+activity#com.qs5501.demo.sale.SaleActivity
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:68:9-70:57
+	android:windowSoftInputMode
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:70:13-54
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:69:13-61
+activity#com.qs5501.demo.MainMenuActivity
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:71:9-83:20
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:71:19-66
+intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED+action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:72:13-78:29
+action#android.intent.action.MAIN
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:73:17-69
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:73:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:75:17-77
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:75:27-74
+action#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:77:17-90
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:77:25-87
+meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:80:13-82:57
+	android:resource
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:82:17-54
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:81:17-79
+activity#com.qs5501.demo.MainPrinterActivity
+ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:84:9-88:63
+	android:label
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:86:13-45
+	android:launchMode
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:87:13-44
+	android:windowSoftInputMode
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:88:13-60
+	android:name
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml:85:13-63
+uses-sdk
+INJECTED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml
+INJECTED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:23.4.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\1a1a308a35908dd4c28bc8bc5b777556\design-23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.4.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\1a1a308a35908dd4c28bc8bc5b777556\design-23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\5d206cb55e489e7a56f28e01a9b42b4d\recyclerview-v7-23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\5d206cb55e489e7a56f28e01a9b42b4d\recyclerview-v7-23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.satsuware.lib:usefulviews:2.3.6] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\07aa48593f9036e59162491e5fa56a3e\usefulviews-2.3.6\AndroidManifest.xml:23:5-25:41
+MERGED from [com.satsuware.lib:usefulviews:2.3.6] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\07aa48593f9036e59162491e5fa56a3e\usefulviews-2.3.6\AndroidManifest.xml:23:5-25:41
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\b282d19a74ea607684d61367e898d96b\appcompat-v7-24.0.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\b282d19a74ea607684d61367e898d96b\appcompat-v7-24.0.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\bf23bea8f8ba0d013f5b6046f58f90e7\animated-vector-drawable-24.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\bf23bea8f8ba0d013f5b6046f58f90e7\animated-vector-drawable-24.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\01a67c5d4a085c999b3ca226856dad2f\support-vector-drawable-24.0.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\01a67c5d4a085c999b3ca226856dad2f\support-vector-drawable-24.0.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\3aabfd5b4719d70290aedc07840dfa25\support-v4-24.0.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\3aabfd5b4719d70290aedc07840dfa25\support-v4-24.0.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\15ec55f9505e5541a7c9072bc9c3f316\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\15ec55f9505e5541a7c9072bc9c3f316\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\7b1c33c3eca1c6eb086c27a993119757\stetho-1.5.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\7b1c33c3eca1c6eb086c27a993119757\stetho-1.5.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.wdullaer:swipeactionadapter:2.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\e153f2fa017cd50584d5aa8e07cd4089\swipeactionadapter-2.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.wdullaer:swipeactionadapter:2.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\e153f2fa017cd50584d5aa8e07cd4089\swipeactionadapter-2.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mik3y:usb-serial-for-android:3.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\7555d1daf6c6cd4451489b5b514cbf6b\usb-serial-for-android-3.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.mik3y:usb-serial-for-android:3.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\7555d1daf6c6cd4451489b5b514cbf6b\usb-serial-for-android-3.0.0\AndroidManifest.xml:5:5-7:41
+INJECTED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml
+INJECTED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.0.0] C:\Users\zenkin\.gradle\caches\transforms-2\files-2.1\b282d19a74ea607684d61367e898d96b\appcompat-v7-24.0.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml
+		ADDED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Project Android\ARMCassiraZero\ARM\3G5501Demo_studio\app\src\main\AndroidManifest.xml

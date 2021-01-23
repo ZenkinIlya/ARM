@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.qs5501.demo.base.GoodAdderActivity"
+    android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_good_adder"
+            style="@style/Toolbar">
+
+            <TextView
+                android:id="@+id/title_redaction_create_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Созд./Редакт. товара"
+                android:textColor="@color/White"
+                android:textSize="30sp"
+                android:gravity="start"
+                android:layout_marginEnd="20dp">
+            </TextView>
+
+        </android.support.v7.widget.Toolbar>
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/good_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp">
+                        <android.support.design.widget.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="text"
+                            android:hint="Наименование"/>
+                    </android.support.design.widget.TextInputLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/good_barcode"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_weight="1">
+                            <android.support.design.widget.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="number"
+                                android:digits="0123456789"
+                                android:hint="Штрих-код"
+                                android:maxLength="13"/>
+                        </android.support.design.widget.TextInputLayout>
+
+                        <ImageButton
+                            android:id="@+id/btn_barcode_good_creator_redactor"
+                            android:layout_weight="0"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:scaleType="fitXY"
+                            android:layout_margin="10dp"
+                            android:src="@drawable/ic_barcode_black"
+                            android:contentDescription="Штрих-код"
+                            android:background="@null"/>
+
+                    </LinearLayout>
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/good_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp">
+                        <android.support.design.widget.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:digits="0123456789"
+                            android:hint="Цена"/>
+                    </android.support.design.widget.TextInputLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:text="Маркированный"
+                            android:textSize="18sp"/>
+
+                        <CheckBox
+                            android:id="@+id/good_mark"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <com.satsuware.usefulviews.LabelledSpinner
+                        android:id="@+id/good_unit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        app:labelText="Еденицы измерения"
+                        app:spinnerEntries="@array/units">
+                    </com.satsuware.usefulviews.LabelledSpinner>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/good_quantity_in_stock"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp">
+                        <android.support.design.widget.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:digits="0123456789"
+                            android:hint="Количество на складе"/>
+                    </android.support.design.widget.TextInputLayout>
+
+                    <com.satsuware.usefulviews.LabelledSpinner
+                        android:id="@+id/good_tax_system"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        app:labelText="Система налогообложения (СНО)"
+                        app:spinnerEntries="@array/tax_system">
+                    </com.satsuware.usefulviews.LabelledSpinner>
+
+                    <com.satsuware.usefulviews.LabelledSpinner
+                        android:id="@+id/good_tax_rate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        app:labelText="Ставка НДС %"
+                        app:spinnerEntries="@array/tax_rate">
+                    </com.satsuware.usefulviews.LabelledSpinner>
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/btn_good_adder_add"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:text="Подтвердить"
+                        android:textSize="20sp"
+                        style="@style/Buttons">
+                    </android.support.v7.widget.AppCompatButton>
+
+                </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>

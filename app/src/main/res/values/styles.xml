@@ -1,0 +1,60 @@
+<resources>
+
+    <style name="AppThemeNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+        <item name="colorControlActivated">@color/colorControlActivated</item>
+        <item name="colorControlHighlight">@color/colorControlHighlight</item>
+
+<!--        стиль выпадающего меню из toolbar-->
+        <item name="android:popupMenuStyle">@style/ListPopupWindowLight</item>
+
+<!--        кнопка назад-->
+        <item name="android:homeAsUpIndicator">@drawable/ic_back</item>
+
+<!--        фон приложения-->
+        <item name="android:windowBackground">@color/White</item>
+
+<!--        цвет кнопки-->
+        <item name="android:colorButtonNormal">@color/colorAccent</item>
+
+        <item name="android:textColor">@color/Black</item>
+
+        <item name="android:windowAnimationStyle">@style/LeftRightActivity</item>
+
+    </style>
+
+<!--    фон у меню в ToolBar-->
+    <style name="ListPopupWindowLight" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:background">@color/White</item>
+    </style>
+
+<!--    Стиль Toolbar-->
+    <style name="Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+<!--        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>-->
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+<!--    Стиль кнопки-->
+    <style name="Buttons">
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+    <style name="SwitchStyle">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+<!--    Анимация-->
+    <style name="LeftRightActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_left_right_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_left_right_exit</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_left_right_close_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_left_right_close_enter</item>
+    </style>
+
+</resources>

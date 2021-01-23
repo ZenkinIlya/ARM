@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qs5501.demo.sale.payment.AdvancePaymentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_advance_payment"
+            style="@style/Toolbar">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Аванс"
+                android:textColor="@color/White"
+                android:textSize="30sp"
+                android:gravity="left"
+                android:layout_marginEnd="20dp">
+            </TextView>
+
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/advance_payment_choose_payment"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                app:switchTextAppearance="@style/SwitchStyle"
+                android:textOff="Наличные"
+                android:textOn="Безналичные"
+                android:layout_gravity="center"
+                android:thumb="@drawable/sw_payment_thumb"
+                app:track="@drawable/sw_payment_track"
+                app:showText="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/advance_payment_cash"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp">
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="0.00"
+                        android:textSize="35sp"
+                        android:textStyle="bold"
+                        android:inputType="number"
+                        android:digits="0123456789"
+                        android:hint="Аванс"/>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0">
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_advance_payment_pay"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Оплатить"
+                android:textSize="25sp"
+                style="@style/Buttons">
+            </android.support.v7.widget.AppCompatButton>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

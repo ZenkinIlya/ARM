@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qs5501.demo.settings.SettingsActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_settings"
+        style="@style/Toolbar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Настройки"
+            android:textColor="@color/White"
+            android:textSize="30sp"
+            android:gravity="start"
+            android:layout_marginEnd="20dp">
+        </TextView>
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/btn_settings_operators"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Операторы"
+            android:textSize="25sp"
+            android:drawableEnd="@drawable/ic_next_step"
+            android:paddingEnd="20dp"
+            android:paddingStart="40dp"
+            style="@style/Buttons"/>
+
+        <Button
+            android:id="@+id/btn_settings_cliche"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Клише"
+            android:textSize="25sp"
+            android:drawableEnd="@drawable/ic_next_step"
+            android:paddingEnd="20dp"
+            android:paddingStart="40dp"
+            style="@style/Buttons"/>
+
+        <Button
+            android:id="@+id/btn_settings_test"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Тест"
+            android:textSize="25sp"
+            style="@style/Buttons"/>
+
+        <Button
+            android:id="@+id/btn_settings_test_costum_driver"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Тест costum driver"
+            android:textSize="25sp"
+            style="@style/Buttons"/>
+
+    </LinearLayout>
+
+</LinearLayout >
